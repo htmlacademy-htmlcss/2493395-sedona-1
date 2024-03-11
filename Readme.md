@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Игорь Самойлов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2493395).
-- Наставник: `Неизвестно`.
+- Наставник: [Максим Миронов](https://htmlacademy.ru/profile/id1336881).
 
 ---
 
