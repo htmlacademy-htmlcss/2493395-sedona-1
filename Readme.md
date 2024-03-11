@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Silver S](https://up.htmlacademy.ru/htmlcss-individual/1/user/2493395).
+* Студент: [Игорь Самойлов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2493395).
 * Наставник: `Неизвестно`.
 
 ---
