@@ -7,9 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <a class="navigation-logo">
-        <img class="main-header-logo" alt="Логотип Седоны" src="/index.html" />
-      </a>
+      <img class="main-header-logo" alt="Логотип Седоны" src="/index.html" />
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -43,22 +41,25 @@
     <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-              <img class="breadcrumbs-main" src="#" alt="Главная" />
-            </a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
+        <nav class="breadcrumbs-nav">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html">
+                <img class="breadcrumbs-main" src="#" alt="Главная" />
+              </a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
         <section class="catalog-filter">
           <form
             class="catalog-filter-form"
             action="https://echo.htmlacademy.ru/"
             method="get"
           >
+            <h2 class="visually-hidden">Инфраструктура</h2>
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
@@ -92,6 +93,7 @@
                 </li>
               </ul>
             </fieldset>
+            <h2 class="visually-hidden">Тип жилья</h2>
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
@@ -131,6 +133,7 @@
                 </li>
               </ul>
             </fieldset>
+            <h2 class="visually-hidden">Стоимость</h2>
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость, ₽:</legend>
               <ul class="catalog-filter-list">
@@ -140,6 +143,7 @@
                       class="control-input"
                       type="text"
                       name="min-cost"
+                      placeholder="от"
                       value="0"
                     />
                   </label>
@@ -150,6 +154,7 @@
                       class="control-input"
                       type="text"
                       name="max-cost"
+                      placeholder="до"
                       value="9000"
                     />
                   </label>
@@ -168,13 +173,18 @@
           <option value="expensive">Сначала дорогие</option>
           <option value="popular">Сначала популярные</option>
         </select>
+        <div>
+          <a href="#" class="btn" aria-label="Показать в виде карточек"></a>
+          <a href="#" class="btn" aria-label="Показать в рассширенном виде"></a>
+          <a href="#" class="btn" aria-label="Показать в виде списка"></a>
+        </div>
       </div>
       <section class="result">
         <ul class="hotel-list">
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="#" alt="Отель" />
-              <h2 class="hotel-card-title">Amara Resort & Spa</h2>
+              <h3 class="hotel-card-title">Amara Resort & Spa</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 4000 ₽</span>
@@ -187,7 +197,7 @@
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="#" alt="Отель" />
-              <h2 class="hotel-card-title">Villas at Poco Diablo</h2>
+              <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 5000 ₽</span>
@@ -200,7 +210,7 @@
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="#" alt="Отель" />
-              <h2 class="hotel-card-title">Desert Quail Inn</h2>
+              <h3 class="hotel-card-title">Desert Quail Inn</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 2500 ₽</span>
@@ -213,7 +223,7 @@
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="#" alt="Отель" />
-              <h2 class="hotel-card-title">GreenTree Inn</h2>
+              <h3 class="hotel-card-title">GreenTree Inn</h3>
             </a>
             <span class="hotel-card-type">Гостиница</span>
             <span class="hotel-card-price">От 1500 ₽</span>
