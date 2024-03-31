@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -296,4 +300,20 @@ body {
   text-decoration: none;
   color: white;
   background-color: #82b3d3;
+}
+
+.newsletter-title-black {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+.newsletter-description-black {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: black;
 }
