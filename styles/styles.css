@@ -2,14 +2,14 @@
   font-family: "PT Sans";
   font-weight: 400;
   font-style: normal;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "PT Sans";
   font-weight: 700;
   font-style: normal;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -19,10 +19,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   margin: 0;
-}
-
-li {
-  list-style-type: none;
 }
 
 .visually-hidden {
@@ -70,7 +66,7 @@ li {
 }
 
 .hero {
-  background-image: url("/images/index-background.jpg");
+  background: url("../images/index-background.jpg"), black;
   width: 1200px;
   height: 485px;
   background-repeat: no-repeat;
@@ -85,9 +81,6 @@ li {
 }
 
 .sedona-info-subtitle {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
 }
 
@@ -138,9 +131,6 @@ li {
 }
 
 .services-description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
 }
 
@@ -170,9 +160,6 @@ li {
   text-align: center;
 }
 .hotel-search-description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
 }
 
@@ -188,7 +175,7 @@ li {
 }
 
 .newsletter .container {
-  background-image: url("/images/Subscribe.jpg");
+  background: url("../images/subscribe.jpg"), black;
   width: 1200px;
   height: 414px;
 }
@@ -201,9 +188,6 @@ li {
   color: white;
 }
 .newsletter-description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
   color: white;
 }
@@ -220,10 +204,9 @@ li {
 }
 
 .hotels-filter-wrapper {
-  background-image: url("/images/filter.jpg");
+  background: url("../images/filter.jpg"), black;
   width: 1200px;
-  height: 412px;
-  margin-bottom: 300px;
+  min-height: 412px;
 }
 .hotels-filter {
   color: white;
@@ -311,9 +294,88 @@ li {
   color: black;
 }
 .newsletter-description-black {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   text-align: center;
   color: black;
+}
+
+.field {
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #9b9b9b;
+  border-style: none;
+}
+.field-dark {
+  background-color: #f2f2f2;
+}
+
+.control-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+
+.control-input {
+  font: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #82b3d3;
+  cursor: pointer;
+  border-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.newsletter-form-btn {
+  font: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+.submit-button {
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reset-button {
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hotel-card-add {
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn-favorite {
+  color: white;
+  background-color: #7db54f;
+  cursor: pointer;
+  border-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.select-control {
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  border-color: #e5e5e5;
 }
