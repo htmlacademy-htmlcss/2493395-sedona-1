@@ -355,6 +355,16 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+.select-control {
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  border-color: #e5e5e5;
+}
+
 .hotel-card-add {
   font: inherit;
   font-weight: 700;
@@ -369,13 +379,4 @@ body {
   border-style: none;
   text-transform: uppercase;
   text-align: center;
-}
-
-.select-control {
-  font: inherit;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-  border-color: #e5e5e5;
 }
