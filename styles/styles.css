@@ -13,12 +13,23 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .visually-hidden {
@@ -175,7 +186,7 @@ body {
 }
 
 .newsletter .container {
-  background: url("../images/subscribe.jpg"), black;
+  background: url("../images/subscribe-img.jpg"), black;
   width: 1200px;
   height: 414px;
 }
@@ -379,4 +390,112 @@ body {
   border-style: none;
   text-transform: uppercase;
   text-align: center;
+}
+
+.navigation-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu {
+  max-width: 339px;
+  margin-right: 301px;
+}
+
+.navigation-user {
+  max-width: 268px;
+}
+
+.main-header-logo {
+  margin-right: 46px;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-item {
+  max-width: 400px;
+}
+
+.main-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.catalog-filter-form {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.pagination-list {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.pagination-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 60px;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-filter-infrastructure {
+  max-width: 151px;
+  margin-right: 70px;
+}
+
+.catalog-filter-type {
+  max-width: 151px;
+  margin-right: 150px;
+}
+
+.catalog-filter-price {
+  max-width: 288px;
+  margin-right: 70px;
+}
+.catalog-filter-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  max-width: 191px;
+  margin-bottom: 32px;
 }

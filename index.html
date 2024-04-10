@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header navigation-container">
       <img
         class="main-header-logo"
         alt="Логотип Седоны"
@@ -16,7 +16,7 @@
         height="70"
       />
       <nav class="navigation">
-        <ul class="navigation-list">
+        <ul class="navigation-list navigation-menu">
           <li class="navigation-item current-item">
             <a class="navigation-link" href="#">Главная</a>
           </li>
@@ -24,28 +24,30 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="/catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
       </nav>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link-favorite" href="#">
-            <span class="visually-hidden">Избранное</span>
-            <span class="favorites-count">12</span>
-          </a>
-        </li>
-      </ul>
-      <div class="navigation-item">
-        <a class="navigation-link-btn" href="#">ХОЧУ СЮДА!</a>
+      <div class="navigation-user">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Избранное</span>
+              <span class="favorites-count">12</span>
+            </a>
+          </li>
+        </ul>
+        <div class="navigation-item">
+          <a class="navigation-link-btn" href="#">ХОЧУ СЮДА!</a>
+        </div>
       </div>
     </header>
-    <main>
+    <main class="main-container">
       <h1 class="visually-hidden">Город Седона</h1>
       <section class="hero container">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
@@ -206,7 +208,7 @@
       </section>
     </main>
     <footer class="main-footer">
-      <div class="main-footer-wrapper container">
+      <div class="main-footer-container">
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="#">
