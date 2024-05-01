@@ -22,10 +22,12 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  width: 1200px;
+  box-shadow: 0 15px 40px #c7c7c7;
 }
 
 .main-container {
@@ -333,6 +335,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 6px;
 }
 
 .newsletter-title-black {
@@ -506,6 +509,7 @@ body {
   display: flex;
   width: 1060px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .pagination-item {
@@ -817,7 +821,7 @@ body {
 }
 
 .pagination-item {
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   background-color: #82b3d3;
   border-radius: 4px;
@@ -863,12 +867,6 @@ body {
   border: none;
 }
 
-.numb-stars {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
-
 .navigation-btn {
   padding: 16px 0 14px 20px;
 }
@@ -911,7 +909,8 @@ body {
 .type-cards-item {
   display: flex;
   text-decoration: none;
-  padding: 15px 14px;
+  width: 48px;
+  height: 48px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   justify-content: center;
@@ -961,4 +960,18 @@ body {
 
 .advantages-item:last-child .advantages-title::after {
   background-color: #a7cae0;
+}
+
+.numb-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.numb-stars {
+  display: flex;
+  align-items: center;
 }
