@@ -30,10 +30,6 @@ body {
   box-shadow: 0 15px 40px #c7c7c7;
 }
 
-.main-container {
-  flex-grow: 1;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -92,6 +88,10 @@ body {
   color: white;
   background-color: #756157;
   text-decoration: none;
+  padding: 8px 34px;
+  border-radius: 4px;
+  min-width: max-content;
+  display: inline-block;
 }
 
 .hero {
@@ -99,6 +99,10 @@ body {
   width: 1200px;
   height: 485px;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .sedona-info {
@@ -107,10 +111,13 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 .sedona-info-subtitle {
   text-align: center;
+  margin: 0;
 }
 
 .sedona-city {
@@ -141,12 +148,15 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  padding: 0 29px;
 }
 .advantages-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin: 0;
 }
 
 .services-title {
@@ -155,10 +165,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-}
-
-.services-description {
-  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .services-item:nth-child(odd) {
@@ -485,6 +493,7 @@ body {
 .main-container {
   width: 1200px;
   margin: 0 auto;
+  flex-grow: 1;
 }
 
 .welcome-img {
@@ -590,20 +599,6 @@ body {
   text-decoration: none;
 }
 
-.navigation-link-btn {
-  padding: 8px 34px;
-  border-radius: 4px;
-  min-width: max-content;
-  display: inline-block;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
 .container-hero-img {
   margin-top: -34px;
 }
@@ -620,28 +615,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.sedona-info {
-  margin: 0;
-  padding-bottom: 25px;
-}
-
-.sedona-info-subtitle {
-  margin: 0;
-}
 
 .sedona-info-wrapper {
   margin-bottom: 21px;
   box-sizing: border-box;
   padding: 69px 270px;
-}
-
-.advantages-title {
-  margin: 0;
-  padding: 0 29px;
-}
-
-.advantages-description {
-  margin: 0;
 }
 
 .advantages-list {
@@ -667,13 +645,9 @@ body {
   padding: 102px 85px;
 }
 
-.services-title {
-  margin: 0;
-  padding-bottom: 20px;
-}
-
 .services-description {
   margin: 0;
+  text-align: center;
 }
 
 .services-wrapper .container {
