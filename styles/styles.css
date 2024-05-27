@@ -392,9 +392,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  width: 20px;
-  height: 20px;
-  border: 0;
   margin: 0;
 }
 
@@ -1008,7 +1005,7 @@ body {
   opacity: 0;
 }
 
-.control-input:checked + .control-radio::before {
+.custom-input:checked + .control-radio::before {
   opacity: 1;
 }
 
@@ -1041,7 +1038,7 @@ body {
   opacity: 0;
 }
 
-.control-input:checked + .control-checkbox::before {
+.custom-input:checked + .control-checkbox::before {
   opacity: 1;
 }
 
@@ -1837,7 +1834,7 @@ select::-ms-expand {
   visibility: visible;
 }
 
-.control-input:disabled {
-  opacity: 0.1;
+.custom-input:disabled + .control {
+  opacity: 0.3;
   pointer-events: none;
 }
