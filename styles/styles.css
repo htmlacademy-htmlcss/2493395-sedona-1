@@ -80,6 +80,7 @@ body {
 }
 
 .navigation-link-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -92,6 +93,7 @@ body {
   border-radius: 4px;
   min-width: max-content;
   display: inline-block;
+  border: none;
 }
 
 .hero {
@@ -196,9 +198,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-}
-.hotel-search-description {
-  text-align: center;
+  margin: 0;
 }
 
 .hotel-search-btn {
@@ -210,6 +210,9 @@ body {
   color: white;
   text-decoration: none;
   background-color: #756157;
+  padding: 8px 50px;
+  border-radius: 4px;
+  margin: 0;
 }
 
 .newsletter-container {
@@ -225,10 +228,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: white;
-}
-.newsletter-description {
-  text-align: center;
-  color: white;
+  margin: 0;
 }
 
 .footer-contacts-address {
@@ -262,6 +262,8 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+  padding: 0 0 5px 0;
 }
 .breadcrumbs-link {
   font-weight: 400;
@@ -364,20 +366,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: black;
-}
-.newsletter-description-black {
-  text-align: center;
-  color: black;
+  margin: 0;
 }
 
-.field {
-  font: inherit;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #9b9b9b;
-  border-style: none;
-}
 .field-dark {
   background-color: #f2f2f2;
 }
@@ -415,18 +406,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-.newsletter-form-btn {
-  font: inherit;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-}
-.submit-button {
-  font: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-}
+
 .reset-button {
   font: inherit;
   font-weight: 700;
@@ -441,15 +421,6 @@ body {
   border-radius: 4px;
   background: none;
   border: 3px solid transparent;
-}
-
-.select-control {
-  font: inherit;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-  border-color: #e5e5e5;
 }
 
 .hotel-card-add {
@@ -539,12 +510,6 @@ body {
   flex-wrap: wrap;
 }
 
-.pagination-item {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .catalog-filter-list {
   margin: 0;
   padding: 0;
@@ -579,6 +544,10 @@ body {
   padding: 8px 50px;
   margin-bottom: 33px;
   border-radius: 4px;
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .navigation-user {
@@ -662,19 +631,10 @@ body {
   align-items: center;
 }
 
-.hotel-search-title {
-  margin: 0;
-}
-
 .hotel-search-description {
   margin: 0;
   padding: 20px 0 54px;
-}
-
-.hotel-search-btn {
-  padding: 8px 50px;
-  border-radius: 4px;
-  margin: 0;
+  text-align: center;
 }
 
 .newsletter-container {
@@ -684,13 +644,11 @@ body {
   padding: 96px 166px 104px;
 }
 
-.newsletter-title {
-  margin: 0;
-}
-
 .newsletter-description {
   margin: 0;
   padding: 20px 162px 54px;
+  text-align: center;
+  color: white;
 }
 
 .newsletter-form {
@@ -703,6 +661,12 @@ body {
   height: 52px;
   padding-left: 20px;
   border-radius: 4px 0 0 4px;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #9b9b9b;
+  border-style: none;
 }
 
 .newsletter-form-btn {
@@ -716,6 +680,10 @@ body {
 
   text-transform: uppercase;
   text-align: center;
+  font: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .main-footer-container {
@@ -738,11 +706,6 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
-}
-
-.hotels-filter-title {
-  margin: 0;
-  padding: 0 0 5px 0;
 }
 
 .breadcrumbs {
@@ -795,6 +758,14 @@ body {
   align-items: center;
   width: 292px;
   margin-left: -2px;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-image: url("../images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 93% 50%;
 }
 
 .control {
@@ -859,6 +830,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .three-dots {
@@ -878,14 +852,13 @@ body {
   align-items: center;
   padding: 96px 250px 104px;
 }
-.newsletter-title-black {
-  margin: 0;
-}
 
 .newsletter-description-black {
   margin: 0;
   max-width: 475px;
   padding: 20px 0 54px;
+  text-align: center;
+  color: black;
 }
 
 .advantages-img {
@@ -959,10 +932,12 @@ body {
 
 .type-cards-container {
   display: flex;
-  justify-content: center;
+  margin: 0;
+  list-style: none;
+  padding: 0;
   gap: 8px;
   flex-wrap: wrap;
-  max-width: 200px;
+  max-width: 160px;
   min-height: 50px;
   align-items: center;
 }
@@ -1089,6 +1064,7 @@ body {
 .navigation-link-btn:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .hotel-search-btn:hover {
@@ -1110,6 +1086,7 @@ body {
 .hotel-search-btn:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .hotel-card-button:hover {
@@ -1132,7 +1109,7 @@ body {
 .hotel-card-button:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
-  cursor: none;
+  pointer-events: none;
 }
 
 select {
@@ -1164,6 +1141,7 @@ select::-ms-expand {
 .hotel-card-button:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .blue-btn:hover {
@@ -1186,7 +1164,7 @@ select::-ms-expand {
 .blue-btn:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
-  cursor: none;
+  pointer-events: none;
 }
 
 .btn-favorite:hover {
@@ -1209,7 +1187,7 @@ select::-ms-expand {
 .btn-favorite:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
-  cursor: none;
+  pointer-events: none;
 }
 
 .type-cards-item:hover {
@@ -1226,12 +1204,6 @@ select::-ms-expand {
 .type-cards-item:active {
   border-color: #000000;
   transition: 0.2s;
-}
-
-.select-control {
-  background-image: url("../images/icon-arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 93% 50%;
 }
 
 .logo-html path {
@@ -1347,6 +1319,7 @@ select::-ms-expand {
 .select-control:disabled {
   border-color: #b3b3b3;
   transition: 0.2s;
+  pointer-events: none;
 }
 
 .reset-button:hover {
@@ -1367,6 +1340,7 @@ select::-ms-expand {
 
 .reset-button:disabled {
   opacity: 0.1;
+  pointer-events: none;
 }
 
 .field:hover {
@@ -1820,8 +1794,9 @@ select::-ms-expand {
   flex-direction: column;
   width: 256px;
   align-items: center;
-  top: 44px;
-  left: -57px;
+  left: 28%;
+  top: 0;
+  transform: translate(-50%, 21%);
   visibility: hidden;
 }
 
@@ -1860,4 +1835,9 @@ select::-ms-expand {
 
 .people-container:hover > .modal-info-wrapper {
   visibility: visible;
+}
+
+.control-input:disabled {
+  opacity: 0.1;
+  pointer-events: none;
 }
